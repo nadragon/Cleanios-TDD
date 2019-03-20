@@ -96,7 +96,22 @@ class _1_LottoTests: XCTestCase {
 
 다음으로 넘어가기에 앞서, 방금 배웠던 것들을 통하여 우리가 무엇을 배웠는 지 살펴볼까요? 첫째, 우리는 손쉽게 우리의 테스트 코드를 작성할 수 있는 방법에 관하여 배웠습니다. 둘째, 개발자들에게 '이 코드는 정상동작한다!'는 확신을 주어, 테스트는 우리의 코드 질을 향상 시킬 수 있습니다.
 
+### Important built-in assert functions
 
+- XCTAssertTrue
+- XCTAssertFalse
+- XCTAssertEqual
+- XCTAssertEqualWithAccuracy
+- XCTAssertNotEqual
+- XCTAssertNil
+- XCTAssertNotNil
+- XCTFail
+
+
+
+--------------
+
+## Understanding TDD
 
 
 
