@@ -113,13 +113,21 @@ class _1_LottoTests: XCTestCase {
 
 ## Understanding TDD
 
+1996년, Kent Back은 Extreme Programming이라는 이전과는 온전히 다른 새로운 프로그래밍 방법론을 제시했습니다. 이 방법론은 12가지의 습관과 practices를 기본으로 하고 있습니다.
 
+> One of the rules states that developers have to write unit tests, and all parts of the software have to be thoroughly tested.
 
+위와 같은 규칙도 있습니다. 모든 test는 production code 이전에 쓰여져야 합니다.
 
+이런 Test-First Programming은 Test-Driven Development(TDD)를 이끌어낸다고 합니다. 이 말은 개발자들은 그들의 테스트가 실패하기 때문에만 코드를 작성해야 한다는 것을 의미합니다. 테스트들은 코드가 쓰여져야 하는 지, 아닌지를 나타낼 수 있습니다. 또한, 기능이 구현될 때, 측정(measure)도 제공합니다.
 
+Robert C. Martin (known as Uncle Bob)은 TDD에 관한 보다 쉬운 3가지 규칙을 제안했습니다,
 
+> - You are not allowed to write any production code unless it is to pass a failing unit test 
+> - You are not allowed to write any more of a unit test than is sufficient to fail; and compilation failures are failures 
+> - You are not allowed to write any more production code than is sufficient to pass the one failing unit test 
 
-
+위와 같은 규칙을 통한다면, 우리는 기능 구현에 필요한 코드만을 작성 시킬 수 있을 것입니다. 또한, 필요한 테스트 코드만을 작성하게 될 것입니다. 덕분에 우리가 작성한 코드들은 결국 마지막 product의 한 부분이 되거나, 테스트 한 벌이 될 것입니다.(?)
 
 
 
