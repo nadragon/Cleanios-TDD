@@ -44,8 +44,9 @@ class _1_LottoTests: XCTestCase {
     func testPrizeRanking() {
         let myLotto = [1, 8, 11, 31, 41, 42]
         let winningNumebers = [1, 5, 11, 19, 25, 31]
+        let bonusNumber = 7
         
-        let prizeRanking = lottoMachine.prizeRanking(of: myLotto, winningNumbers: winningNumebers)
+        let prizeRanking = lottoMachine.prizeRanking(of: myLotto, winningNumbers: winningNumebers, bonus: bonusNumber)
     }
 
     func testPerformanceExample() {
