@@ -20,16 +20,16 @@ class _1_LottoTests: XCTestCase {
     override func tearDown() {
         
     }
-
-    func testLottoCount() {
+    
+    func testRandomLottoCount() {
         let count = 5
         let lottos = lottoMachine.makeLottos(count: count)
         XCTAssertEqual(count, lottos.count)
     }
     
-    func testRandomLotto() {
+    func testLottoIsRandom() {
         let count = 2
-        let lottos = lottoMachine.makeLottos(count: count)
+        let lottos = lottoMachine.makeLottos(count: 2)
         XCTAssertNotEqual(lottos[0], lottos[1])
     }
 
