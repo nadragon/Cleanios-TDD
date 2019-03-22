@@ -11,8 +11,10 @@ import XCTest
 
 class _1_LottoTests: XCTestCase {
     
+    var lottoMachine: LottoMachine!
+    
     override func setUp() {
-        
+        lottoMachine = LottoMachine()
     }
 
     override func tearDown() {
@@ -20,7 +22,6 @@ class _1_LottoTests: XCTestCase {
     }
 
     func testMakeLotto() {
-        let lottoMachine = LottoMachine()
         let count = 5
         let lottos = lottoMachine.makeLottos(count: 5)
     }
