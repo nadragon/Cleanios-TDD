@@ -15,7 +15,7 @@ class LottoMachine {
     
     func makeLottos(count: Int) -> [Lotto] {
         let lotto = [1, 2, 3, 4, 5, 6]
-        return [lotto, lotto, lotto, lotto, lotto]
+        return []
     }
     
 }
