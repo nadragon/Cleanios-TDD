@@ -19,13 +19,6 @@
 			remoteGlobalIDString = B6E001122240FF7A00BBF3AB;
 			remoteInfo = 01_Lotto;
 		};
-		B6E001332240FF7F00BBF3AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B6E0010B2240FF7A00BBF3AB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B6E001122240FF7A00BBF3AB;
-			remoteInfo = 01_Lotto;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +29,6 @@
 		B6E001272240FF7F00BBF3AB /* 01_LottoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 01_LottoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E0012B2240FF7F00BBF3AB /* _1_LottoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1_LottoTests.swift; sourceTree = "<group>"; };
 		B6E0012D2240FF7F00BBF3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6E001322240FF7F00BBF3AB /* 01_LottoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 01_LottoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,13 +40,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B6E001242240FF7F00BBF3AB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6E0012F2240FF7F00BBF3AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,7 +64,6 @@
 			children = (
 				B6E001132240FF7A00BBF3AB /* 01_Lotto.app */,
 				B6E001272240FF7F00BBF3AB /* 01_LottoTests.xctest */,
-				B6E001322240FF7F00BBF3AB /* 01_LottoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,24 +124,6 @@
 			productReference = B6E001272240FF7F00BBF3AB /* 01_LottoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B6E001312240FF7F00BBF3AB /* 01_LottoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B6E001412240FF7F00BBF3AB /* Build configuration list for PBXNativeTarget "01_LottoUITests" */;
-			buildPhases = (
-				B6E0012E2240FF7F00BBF3AB /* Sources */,
-				B6E0012F2240FF7F00BBF3AB /* Frameworks */,
-				B6E001302240FF7F00BBF3AB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B6E001342240FF7F00BBF3AB /* PBXTargetDependency */,
-			);
-			name = 01_LottoUITests;
-			productName = 01_LottoUITests;
-			productReference = B6E001322240FF7F00BBF3AB /* 01_LottoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -172,10 +138,6 @@
 						CreatedOnToolsVersion = 10.1;
 					};
 					B6E001262240FF7F00BBF3AB = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = B6E001122240FF7A00BBF3AB;
-					};
-					B6E001312240FF7F00BBF3AB = {
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = B6E001122240FF7A00BBF3AB;
 					};
@@ -196,7 +158,6 @@
 			targets = (
 				B6E001122240FF7A00BBF3AB /* 01_Lotto */,
 				B6E001262240FF7F00BBF3AB /* 01_LottoTests */,
-				B6E001312240FF7F00BBF3AB /* 01_LottoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -210,13 +171,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B6E001252240FF7F00BBF3AB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6E001302240FF7F00BBF3AB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -242,13 +196,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6E0012E2240FF7F00BBF3AB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -256,11 +203,6 @@
 			isa = PBXTargetDependency;
 			target = B6E001122240FF7A00BBF3AB /* 01_Lotto */;
 			targetProxy = B6E001282240FF7F00BBF3AB /* PBXContainerItemProxy */;
-		};
-		B6E001342240FF7F00BBF3AB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B6E001122240FF7A00BBF3AB /* 01_Lotto */;
-			targetProxy = B6E001332240FF7F00BBF3AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -459,46 +401,6 @@
 			};
 			name = Release;
 		};
-		B6E001422240FF7F00BBF3AB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DKBN3X358P;
-				INFOPLIST_FILE = 01_LottoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yoee.test.-1-LottoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = 01_Lotto;
-			};
-			name = Debug;
-		};
-		B6E001432240FF7F00BBF3AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DKBN3X358P;
-				INFOPLIST_FILE = 01_LottoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yoee.test.-1-LottoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = 01_Lotto;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -525,15 +427,6 @@
 			buildConfigurations = (
 				B6E0013F2240FF7F00BBF3AB /* Debug */,
 				B6E001402240FF7F00BBF3AB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B6E001412240FF7F00BBF3AB /* Build configuration list for PBXNativeTarget "01_LottoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B6E001422240FF7F00BBF3AB /* Debug */,
-				B6E001432240FF7F00BBF3AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
