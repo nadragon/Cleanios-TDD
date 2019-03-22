@@ -10,5 +10,5 @@ iOS 프로젝트는 날이 갈수록 복잡해지고 있습니다. 이런 복잡
 
 ## 참고
 
-Test Driven iOS Development with Swift by. 의 Prefix ~ Chapter.1
+Test Driven iOS Development with Swift by.Dominik Hauser 의 Prefix
 

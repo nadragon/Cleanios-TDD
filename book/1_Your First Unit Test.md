@@ -123,13 +123,41 @@ class _1_LottoTests: XCTestCase {
 
 Robert C. Martin (known as Uncle Bob)은 TDD에 관한 보다 쉬운 3가지 규칙을 제안했습니다,
 
+> 원글
+>
 > - You are not allowed to write any production code unless it is to pass a failing unit test 
 > - You are not allowed to write any more of a unit test than is sufficient to fail; and compilation failures are failures 
 > - You are not allowed to write any more production code than is sufficient to pass the one failing unit test 
+>
+> 한국어 버전
+>
+> - 실패하는 단위 테스트를 작성할 때까지 실제 코드를 작성하지 않는다
+>
+> - 컴파일은 실패하지 않으면서 실행이 실패하는 정도로만 단위테스트를 작성한다
+>
+> - 현재 실패하는 테스트를 통과할 정도로만 실제 코드를 작성한다
+>
+> [번역 참고](https://profecessorleejaeman.tistory.com/entry/TDD-법칙-세가지)
 
-위와 같은 규칙을 통한다면, 우리는 기능 구현에 필요한 코드만을 작성 시킬 수 있을 것입니다. 또한, 필요한 테스트 코드만을 작성하게 될 것입니다. 덕분에 우리가 작성한 코드들은 결국 마지막 product의 한 부분이 되거나, 테스트 한 벌이 될 것입니다.(?)
+위와 같은 규칙을 통한다면, 우리는 기능 구현에 필요한 코드만을 작성 시킬 수 있을 것입니다. 또한, 필요한 테스트 코드만을 작성하게 될 것입니다. 더불어 이런 하나의 기능에만 집중하는 방식 덕분은 일을 조각 조각 나누어 수행하는 것을 가능하게 합니다. 덕분에, 누군가 "무슨 일 하고 있어요?"라고 물으면 빠르게 말할 수 있을 것입니다.
+
+### The TDD workflow – red, green, and refactor
 
 
+
+
+
+
+
+
+
+-----------
+
+## 참고
+
+- Test Driven iOS Development with Swift by.Dominik Hauser 의 Chapter.1
+
+- [[Agile] 테스트 주도 개발이란](https://gmlwjd9405.github.io/2018/06/03/agile-tdd.html)  // 읽어보시는 것 추천합니다. 알맞게 활용하는 자세?마음가짐?을 알려줘요.
 
 
 
