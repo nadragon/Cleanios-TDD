@@ -12,8 +12,10 @@ typealias Lotto = [Int]
 
 class LottoMachine {
     
+    let lottoPrice = 1000
+    
     func countOfLottos(payment: Int) -> Int {
-        return 5
+        return payment / lottoPrice
     }
     
     func makeLottos(count: Int) -> [Lotto] {
