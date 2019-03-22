@@ -15,7 +15,11 @@ class LottoMachine {
     
     func makeLottos(count: Int) -> [Lotto] {
         let lotto = [1, 2, 3, 4, 5, 6]
-        return []
+        var lottos: [Lotto] = []
+        for _ in 0..<count {
+            lottos.append(lotto)
+        }
+        return lottos
     }
     
 }
