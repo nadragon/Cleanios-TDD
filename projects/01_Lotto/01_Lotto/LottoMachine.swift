@@ -15,11 +15,11 @@ class LottoMachine {
     
     func makeLottos(count: Int) -> [Lotto] {
         var lotto: [Int] {
-            return [Int](repeating: 0, count: 6).map { _ in
+            return (0..<6).map() { _ in
                 Int.random(in: 1...45)
             }
         }
-        return [Lotto](repeating: lotto, count: count)
+        return (0..<count).map() { _ in lotto }
     }
     
 }
