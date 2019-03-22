@@ -27,8 +27,24 @@ class LottoMachine {
         return (0..<count).map() { _ in lotto }
     }
     
-    func prizeRanking(of: Lotto, winningNumbers: Lotto, bonus: Int) -> Int {
-        return 3
+    func prizeRanking(of lotto: Lotto, winningNumbers: Lotto, bonus: Int) -> Int {
+        let lottoNums = Set(lotto)
+        let winningNums = Set(winningNumbers)
+        
+        return {
+            switch winningNums.intersection(lottoNums).count {
+            case 3:
+                return 5
+            case 4:
+                return 4
+            case 5:
+                return lottoNums.contains(bonus) ? 2 : 3
+            case 6:
+                return 1
+            default:
+                return -1
+            }
+            }()
     }
     
 }
