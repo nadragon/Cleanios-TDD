@@ -49,7 +49,7 @@ class _1_LottoTests: XCTestCase {
         
         let prizeRanking = lottoMachine.prizeRanking(of: myLotto, winningNumbers: winningNumebers, bonus: bonusNumber)
         
-        XCTAssertNotEqual(expectedRanking, prizeRanking)
+        XCTAssertEqual(expectedRanking, prizeRanking)
     }
 
     func testPerformanceExample() {
