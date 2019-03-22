@@ -41,11 +41,22 @@ class _1_LottoTests: XCTestCase {
         XCTAssertNotEqual(lottos[0], lottos[1])
     }
     
-    func testPrizeRanking() {
+    func testPrizeRanking_1() {
         let myLotto = [1, 8, 11, 31, 41, 42]
         let winningNumebers = [1, 5, 11, 19, 25, 31]
         let bonusNumber = 7
         let expectedRanking = 5
+        
+        let prizeRanking = lottoMachine.prizeRanking(of: myLotto, winningNumbers: winningNumebers, bonus: bonusNumber)
+        
+        XCTAssertEqual(expectedRanking, prizeRanking)
+    }
+    
+    func testPrizeRanking_2() {
+        let myLotto = [1, 8, 11, 31, 41, 7]
+        let winningNumebers = [1, 8, 11, 31, 41, 45]
+        let bonusNumber = 7
+        let expectedRanking = 2
         
         let prizeRanking = lottoMachine.prizeRanking(of: myLotto, winningNumbers: winningNumebers, bonus: bonusNumber)
         

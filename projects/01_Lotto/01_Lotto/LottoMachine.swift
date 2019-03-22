@@ -30,21 +30,15 @@ class LottoMachine {
     func prizeRanking(of lotto: Lotto, winningNumbers: Lotto, bonus: Int) -> Int {
         let lottoNums = Set(lotto)
         let winningNums = Set(winningNumbers)
-        
-        return {
-            switch winningNums.intersection(lottoNums).count {
-            case 3:
-                return 5
-            case 4:
-                return 4
-            case 5:
-                return lottoNums.contains(bonus) ? 2 : 3
-            case 6:
-                return 1
-            default:
-                return -1
-            }
-            }()
+        let sameNumberCount = lottoNums.intersection(winningNums).count
+
+        let rankingsBySameNumberCount = [
+            3 : 5,
+            4 : 4,
+            5 : lottoNums.contains(bonus) ? 2 : 3,
+            6 : 1
+        ]
+        return rankingsBySameNumberCount[sameNumberCount] ?? -1
     }
     
 }
