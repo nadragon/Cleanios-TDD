@@ -21,6 +21,11 @@ class _1_LottoTests: XCTestCase {
         
     }
     
+    func testCalculateLottoCount() {
+        let payment = 5000
+        let lottoCount = lottoMachine.countOfLottos(payment: payment)
+    }
+    
     func testRandomLottoCount() {
         let count = 5
         let lottos = lottoMachine.makeLottos(count: count)
