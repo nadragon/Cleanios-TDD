@@ -27,4 +27,8 @@ class LottoMachine {
         return (0..<count).map() { _ in lotto }
     }
     
+    func prizeRanking(of: Lotto, winningNumbers: Lotto, bonus: Int) -> Int {
+        return 3
+    }
+    
 }
