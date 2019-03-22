@@ -19,8 +19,10 @@ class _1_LottoTests: XCTestCase {
         
     }
 
-    func testExample() {
-        
+    func testMakeLotto() {
+        let lottoMachine = LottoMachine()
+        let count = 5
+        let lottos = lottoMachine.lotto(count: 5)
     }
 
     func testPerformanceExample() {
