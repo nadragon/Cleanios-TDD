@@ -35,6 +35,16 @@ class _1_LottoTests: XCTestCase {
         let viewController = ViewController()
         let string = "Dominik"
         let numberOfVowels = viewController.numberOfVowelsInString(string)
+        XCTAssertTrue(numberOfVowels, 3, file: "should find 3 vowels in Dominik")
+        XCTAssertFalse(numberOfVowels, 3, "should find 3 vowels in Dominik")
         XCTAssertEqual(numberOfVowels, 3, "should find 3 vowels in Dominik")
+        XCTAssertEqualWithAccuracy(numberOfVowels, 3, "should find 3 vowels in Dominik")
+        XCTAssertNotEqual(numberOfVowels, 3, "should find 3 vowels in Dominik")
+        XCTAssertNil(numberOfVowels, 3, "should find 3 vowels in Dominik")
+        XCTAssertNotNil(numberOfVowels, 3, "should find 3 vowels in Dominik")
+        XCTFail(numberOfVowels, 3, "should find 3 vowels in Dominik")
+
+
+
     }
 }
