@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B65330942245481900C2FF2B /* LottoMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65330932245481900C2FF2B /* LottoMachine.swift */; };
 		B6E001172240FF7B00BBF3AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E001162240FF7B00BBF3AB /* AppDelegate.swift */; };
 		B6E0012C2240FF7F00BBF3AB /* _1_LottoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E0012B2240FF7F00BBF3AB /* _1_LottoTests.swift */; };
 /* End PBXBuildFile section */
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		B644F95D224524EB00A1E39F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B65330932245481900C2FF2B /* LottoMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoMachine.swift; sourceTree = "<group>"; };
 		B6E001132240FF7A00BBF3AB /* 01_Lotto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 01_Lotto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E001162240FF7B00BBF3AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6E001222240FF7F00BBF3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				B6E001162240FF7B00BBF3AB /* AppDelegate.swift */,
+				B65330932245481900C2FF2B /* LottoMachine.swift */,
 				B6E001222240FF7F00BBF3AB /* Info.plist */,
 			);
 			path = 01_Lotto;
@@ -184,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65330942245481900C2FF2B /* LottoMachine.swift in Sources */,
 				B6E001172240FF7B00BBF3AB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
