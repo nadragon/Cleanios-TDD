@@ -21,11 +21,16 @@ class _1_LottoTests: XCTestCase {
         
     }
 
-    func testMakeLottos() {
+    func testLottoCount() {
         let count = 5
         let lottos = lottoMachine.makeLottos(count: count)
-        XCTAssertNotEqual(lottos[0], lottos[1])
         XCTAssertEqual(count, lottos.count)
+    }
+    
+    func testRandomLotto() {
+        let count = 2
+        let lottos = lottoMachine.makeLottos(count: count)
+        XCTAssertNotEqual(lottos[0], lottos[1])
     }
 
     func testPerformanceExample() {
