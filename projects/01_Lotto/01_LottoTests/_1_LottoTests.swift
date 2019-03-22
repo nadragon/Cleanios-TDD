@@ -23,7 +23,10 @@ class _1_LottoTests: XCTestCase {
     
     func testCalculateLottoCount() {
         let payment = 5000
+        let expectedCount = 5
+        
         let lottoCount = lottoMachine.countOfLottos(payment: payment)
+        XCTAssertEqual(lottoCount, expectedCount)
     }
     
     func testRandomLottoCount() {
