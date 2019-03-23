@@ -7,41 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B65330942245481900C2FF2B /* LottoMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65330932245481900C2FF2B /* LottoMachine.swift */; };
-		B6E001172240FF7B00BBF3AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E001162240FF7B00BBF3AB /* AppDelegate.swift */; };
-		B6E0012C2240FF7F00BBF3AB /* _1_LottoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E0012B2240FF7F00BBF3AB /* _1_LottoTests.swift */; };
+		B6D492892245E25A006AB146 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D492882245E25A006AB146 /* main.swift */; };
+		B6D492962245E26C006AB146 /* LottoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D492952245E26C006AB146 /* LottoTest.swift */; };
+		B6D492B62245E5A7006AB146 /* LottoMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D492B52245E5A7006AB146 /* LottoMachine.swift */; };
+		B6D492C42245E851006AB146 /* LottoMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D492B52245E5A7006AB146 /* LottoMachine.swift */; };
+		B6D492C52245E854006AB146 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D492882245E25A006AB146 /* main.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B6E001282240FF7F00BBF3AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B6E0010B2240FF7A00BBF3AB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B6E001122240FF7A00BBF3AB;
-			remoteInfo = 01_Lotto;
+/* Begin PBXCopyFilesBuildPhase section */
+		B6D492832245E25A006AB146 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
 		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B644F95D224524EB00A1E39F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B65330932245481900C2FF2B /* LottoMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoMachine.swift; sourceTree = "<group>"; };
-		B6E001132240FF7A00BBF3AB /* 01_Lotto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 01_Lotto.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6E001162240FF7B00BBF3AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B6E001222240FF7F00BBF3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6E001272240FF7F00BBF3AB /* 01_LottoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 01_LottoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6E0012B2240FF7F00BBF3AB /* _1_LottoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1_LottoTests.swift; sourceTree = "<group>"; };
-		B6E0012D2240FF7F00BBF3AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D492852245E25A006AB146 /* LottoProgram */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LottoProgram; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D492882245E25A006AB146 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B6D492932245E26C006AB146 /* LottoTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottoTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D492952245E26C006AB146 /* LottoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoTest.swift; sourceTree = "<group>"; };
+		B6D492972245E26C006AB146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D492B52245E5A7006AB146 /* LottoMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoMachine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B6E001102240FF7A00BBF3AB /* Frameworks */ = {
+		B6D492822245E25A006AB146 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6E001242240FF7F00BBF3AB /* Frameworks */ = {
+		B6D492902245E26C006AB146 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,129 +53,117 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B6E0010A2240FF7A00BBF3AB = {
+		B6D4927C2245E25A006AB146 = {
 			isa = PBXGroup;
 			children = (
-				B644F95D224524EB00A1E39F /* README.md */,
-				B6E001152240FF7A00BBF3AB /* 01_Lotto */,
-				B6E0012A2240FF7F00BBF3AB /* 01_LottoTests */,
-				B6E001142240FF7A00BBF3AB /* Products */,
+				B6D492872245E25A006AB146 /* LottoProgram */,
+				B6D492942245E26C006AB146 /* LottoTest */,
+				B6D492862245E25A006AB146 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B6E001142240FF7A00BBF3AB /* Products */ = {
+		B6D492862245E25A006AB146 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B6E001132240FF7A00BBF3AB /* 01_Lotto.app */,
-				B6E001272240FF7F00BBF3AB /* 01_LottoTests.xctest */,
+				B6D492852245E25A006AB146 /* LottoProgram */,
+				B6D492932245E26C006AB146 /* LottoTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B6E001152240FF7A00BBF3AB /* 01_Lotto */ = {
+		B6D492872245E25A006AB146 /* LottoProgram */ = {
 			isa = PBXGroup;
 			children = (
-				B6E001162240FF7B00BBF3AB /* AppDelegate.swift */,
-				B65330932245481900C2FF2B /* LottoMachine.swift */,
-				B6E001222240FF7F00BBF3AB /* Info.plist */,
+				B6D492882245E25A006AB146 /* main.swift */,
+				B6D492B52245E5A7006AB146 /* LottoMachine.swift */,
 			);
-			path = 01_Lotto;
+			path = LottoProgram;
 			sourceTree = "<group>";
 		};
-		B6E0012A2240FF7F00BBF3AB /* 01_LottoTests */ = {
+		B6D492942245E26C006AB146 /* LottoTest */ = {
 			isa = PBXGroup;
 			children = (
-				B6E0012B2240FF7F00BBF3AB /* _1_LottoTests.swift */,
-				B6E0012D2240FF7F00BBF3AB /* Info.plist */,
+				B6D492952245E26C006AB146 /* LottoTest.swift */,
+				B6D492972245E26C006AB146 /* Info.plist */,
 			);
-			path = 01_LottoTests;
+			path = LottoTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B6E001122240FF7A00BBF3AB /* 01_Lotto */ = {
+		B6D492842245E25A006AB146 /* LottoProgram */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6E0013B2240FF7F00BBF3AB /* Build configuration list for PBXNativeTarget "01_Lotto" */;
+			buildConfigurationList = B6D4928C2245E25A006AB146 /* Build configuration list for PBXNativeTarget "LottoProgram" */;
 			buildPhases = (
-				B6E0010F2240FF7A00BBF3AB /* Sources */,
-				B6E001102240FF7A00BBF3AB /* Frameworks */,
-				B6E001112240FF7A00BBF3AB /* Resources */,
+				B6D492812245E25A006AB146 /* Sources */,
+				B6D492822245E25A006AB146 /* Frameworks */,
+				B6D492832245E25A006AB146 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = 01_Lotto;
-			productName = 01_Lotto;
-			productReference = B6E001132240FF7A00BBF3AB /* 01_Lotto.app */;
-			productType = "com.apple.product-type.application";
+			name = LottoProgram;
+			productName = LottoProgram;
+			productReference = B6D492852245E25A006AB146 /* LottoProgram */;
+			productType = "com.apple.product-type.tool";
 		};
-		B6E001262240FF7F00BBF3AB /* 01_LottoTests */ = {
+		B6D492922245E26C006AB146 /* LottoTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6E0013E2240FF7F00BBF3AB /* Build configuration list for PBXNativeTarget "01_LottoTests" */;
+			buildConfigurationList = B6D492982245E26C006AB146 /* Build configuration list for PBXNativeTarget "LottoTest" */;
 			buildPhases = (
-				B6E001232240FF7F00BBF3AB /* Sources */,
-				B6E001242240FF7F00BBF3AB /* Frameworks */,
-				B6E001252240FF7F00BBF3AB /* Resources */,
+				B6D4928F2245E26C006AB146 /* Sources */,
+				B6D492902245E26C006AB146 /* Frameworks */,
+				B6D492912245E26C006AB146 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B6E001292240FF7F00BBF3AB /* PBXTargetDependency */,
 			);
-			name = 01_LottoTests;
-			productName = 01_LottoTests;
-			productReference = B6E001272240FF7F00BBF3AB /* 01_LottoTests.xctest */;
+			name = LottoTest;
+			productName = LottoTest;
+			productReference = B6D492932245E26C006AB146 /* LottoTest.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B6E0010B2240FF7A00BBF3AB /* Project object */ = {
+		B6D4927D2245E25A006AB146 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Yoee Kim";
 				TargetAttributes = {
-					B6E001122240FF7A00BBF3AB = {
+					B6D492842245E25A006AB146 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					B6E001262240FF7F00BBF3AB = {
+					B6D492922245E26C006AB146 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = B6E001122240FF7A00BBF3AB;
 					};
 				};
 			};
-			buildConfigurationList = B6E0010E2240FF7A00BBF3AB /* Build configuration list for PBXProject "01_Lotto" */;
+			buildConfigurationList = B6D492802245E25A006AB146 /* Build configuration list for PBXProject "LottoProgram" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = B6E0010A2240FF7A00BBF3AB;
-			productRefGroup = B6E001142240FF7A00BBF3AB /* Products */;
+			mainGroup = B6D4927C2245E25A006AB146;
+			productRefGroup = B6D492862245E25A006AB146 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B6E001122240FF7A00BBF3AB /* 01_Lotto */,
-				B6E001262240FF7F00BBF3AB /* 01_LottoTests */,
+				B6D492842245E25A006AB146 /* LottoProgram */,
+				B6D492922245E26C006AB146 /* LottoTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B6E001112240FF7A00BBF3AB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6E001252240FF7F00BBF3AB /* Resources */ = {
+		B6D492912245E26C006AB146 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -183,35 +173,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B6E0010F2240FF7A00BBF3AB /* Sources */ = {
+		B6D492812245E25A006AB146 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B65330942245481900C2FF2B /* LottoMachine.swift in Sources */,
-				B6E001172240FF7B00BBF3AB /* AppDelegate.swift in Sources */,
+				B6D492B62245E5A7006AB146 /* LottoMachine.swift in Sources */,
+				B6D492892245E25A006AB146 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6E001232240FF7F00BBF3AB /* Sources */ = {
+		B6D4928F2245E26C006AB146 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6E0012C2240FF7F00BBF3AB /* _1_LottoTests.swift in Sources */,
+				B6D492C42245E851006AB146 /* LottoMachine.swift in Sources */,
+				B6D492962245E26C006AB146 /* LottoTest.swift in Sources */,
+				B6D492C52245E854006AB146 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		B6E001292240FF7F00BBF3AB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B6E001122240FF7A00BBF3AB /* 01_Lotto */;
-			targetProxy = B6E001282240FF7F00BBF3AB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		B6E001392240FF7F00BBF3AB /* Debug */ = {
+		B6D4928A2245E25A006AB146 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,7 +227,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -262,17 +246,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		B6E0013A2240FF7F00BBF3AB /* Release */ = {
+		B6D4928B2245E25A006AB146 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -304,7 +288,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -317,125 +301,102 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		B6E0013C2240FF7F00BBF3AB /* Debug */ = {
+		B6D4928D2245E25A006AB146 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DKBN3X358P;
-				INFOPLIST_FILE = 01_Lotto/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yoee.test.-1-Lotto";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B6E0013D2240FF7F00BBF3AB /* Release */ = {
+		B6D4928E2245E25A006AB146 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DKBN3X358P;
-				INFOPLIST_FILE = 01_Lotto/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yoee.test.-1-Lotto";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		B6E0013F2240FF7F00BBF3AB /* Debug */ = {
+		B6D492992245E26C006AB146 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = DKBN3X358P;
-				INFOPLIST_FILE = 01_LottoTests/Info.plist;
+				INFOPLIST_FILE = LottoTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yoee.test.-1-LottoTests";
+				PRODUCT_BUNDLE_IDENTIFIER = yoee.test.LottoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01_Lotto.app/01_Lotto";
 			};
 			name = Debug;
 		};
-		B6E001402240FF7F00BBF3AB /* Release */ = {
+		B6D4929A2245E26C006AB146 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = DKBN3X358P;
-				INFOPLIST_FILE = 01_LottoTests/Info.plist;
+				INFOPLIST_FILE = LottoTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yoee.test.-1-LottoTests";
+				PRODUCT_BUNDLE_IDENTIFIER = yoee.test.LottoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/01_Lotto.app/01_Lotto";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B6E0010E2240FF7A00BBF3AB /* Build configuration list for PBXProject "01_Lotto" */ = {
+		B6D492802245E25A006AB146 /* Build configuration list for PBXProject "LottoProgram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6E001392240FF7F00BBF3AB /* Debug */,
-				B6E0013A2240FF7F00BBF3AB /* Release */,
+				B6D4928A2245E25A006AB146 /* Debug */,
+				B6D4928B2245E25A006AB146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6E0013B2240FF7F00BBF3AB /* Build configuration list for PBXNativeTarget "01_Lotto" */ = {
+		B6D4928C2245E25A006AB146 /* Build configuration list for PBXNativeTarget "LottoProgram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6E0013C2240FF7F00BBF3AB /* Debug */,
-				B6E0013D2240FF7F00BBF3AB /* Release */,
+				B6D4928D2245E25A006AB146 /* Debug */,
+				B6D4928E2245E25A006AB146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6E0013E2240FF7F00BBF3AB /* Build configuration list for PBXNativeTarget "01_LottoTests" */ = {
+		B6D492982245E26C006AB146 /* Build configuration list for PBXNativeTarget "LottoTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6E0013F2240FF7F00BBF3AB /* Debug */,
-				B6E001402240FF7F00BBF3AB /* Release */,
+				B6D492992245E26C006AB146 /* Debug */,
+				B6D4929A2245E26C006AB146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B6E0010B2240FF7A00BBF3AB /* Project object */;
+	rootObject = B6D4927D2245E25A006AB146 /* Project object */;
 }

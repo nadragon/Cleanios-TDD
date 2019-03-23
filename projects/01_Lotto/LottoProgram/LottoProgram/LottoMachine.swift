@@ -1,6 +1,6 @@
 //
 //  LottoMachine.swift
-//  01_Lotto
+//  LottoProgram
 //
 //  Created by 김나용 on 23/03/2019.
 //  Copyright © 2019 Yoee Kim. All rights reserved.
@@ -31,7 +31,7 @@ class LottoMachine {
         let lottoNums = Set(lotto)
         let winningNums = Set(winningNumbers)
         let sameNumberCount = lottoNums.intersection(winningNums).count
-
+        
         let rankingsBySameNumberCount = [
             3 : 5,
             4 : 4,

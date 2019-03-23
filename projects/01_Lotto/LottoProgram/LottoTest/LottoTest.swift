@@ -1,24 +1,20 @@
 //
-//  _1_LottoTests.swift
-//  01_LottoTests
+//  LottoTest.swift
+//  LottoTest
 //
-//  Created by 김나용 on 19/03/2019.
+//  Created by 김나용 on 23/03/2019.
 //  Copyright © 2019 Yoee Kim. All rights reserved.
 //
 
 import XCTest
-@testable import _1_Lotto
+@testable import LottoProgram
 
-class _1_LottoTests: XCTestCase {
+class LottoTest: XCTestCase {
     
     var lottoMachine: LottoMachine!
     
     override func setUp() {
         lottoMachine = LottoMachine()
-    }
-
-    override func tearDown() {
-        
     }
     
     func testCalculateLottoCount() {
@@ -37,7 +33,7 @@ class _1_LottoTests: XCTestCase {
     
     func testLottoIsRandom() {
         let count = 2
-        let lottos = lottoMachine.makeLottos(count: 2)
+        let lottos = lottoMachine.makeLottos(count: count)
         XCTAssertNotEqual(lottos[0], lottos[1])
     }
     
@@ -62,7 +58,7 @@ class _1_LottoTests: XCTestCase {
         
         XCTAssertEqual(expectedRanking, prizeRanking)
     }
-
+    
     func testPerformanceExample() {
         self.measure {
         }
