@@ -13,6 +13,16 @@ typealias Lotto = [Int]
 class LottoMachine {
     
     let lottoPrice = 1000
+    let prizesByRanking = [
+        1 : 2000000000,
+        2 : 30000000,
+        3 : 1500000,
+        4 : 50000,
+        5 : 5000
+    ]
+    
+    var winningNumbers: Lotto?
+    var bonusNumber: Int?
     
     func countOfLottos(payment: Int) -> Int {
         return payment / lottoPrice
@@ -27,18 +37,19 @@ class LottoMachine {
         return (0..<count).map() { _ in lotto }
     }
     
-    func prizeRanking(of lotto: Lotto, winningNumbers: Lotto, bonus: Int) -> Int? {
-        let lottoNums = Set(lotto)
-        let winningNums = Set(winningNumbers)
-        let sameNumberCount = lottoNums.intersection(winningNums).count
-        
-        let rankingsBySameNumberCount = [
+    func ranking(of lotto: Lotto) -> Int? {
+        let rankings = [
             3 : 5,
             4 : 4,
-            5 : lottoNums.contains(bonus) ? 2 : 3,
+            5 : lotto.contains(bonusNumber ?? -1) ? 2 : 3,
             6 : 1
         ]
-        return rankingsBySameNumberCount[sameNumberCount]
+        return rankings[sameNumberCount(of: lotto)]
     }
     
+    private func sameNumberCount(of lotto: Lotto) -> Int {
+        let lottoNums = Set(lotto)
+        let winningNums = Set(winningNumbers ?? [])
+        return lottoNums.intersection(winningNums).count
+    }
 }

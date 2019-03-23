@@ -39,22 +39,22 @@ class LottoTest: XCTestCase {
     
     func testPrizeRanking_1() {
         let myLotto = [1, 8, 11, 31, 41, 42]
-        let winningNumebers = [1, 5, 11, 19, 25, 31]
-        let bonusNumber = 7
+        lottoMachine.winningNumbers = [1, 5, 11, 19, 25, 31]
+        lottoMachine.bonusNumber = 7
         let expectedRanking = 5
         
-        let prizeRanking = lottoMachine.prizeRanking(of: myLotto, winningNumbers: winningNumebers, bonus: bonusNumber)
+        let prizeRanking = lottoMachine.ranking(of: myLotto)
         
         XCTAssertEqual(expectedRanking, prizeRanking)
     }
     
     func testPrizeRanking_2() {
         let myLotto = [1, 8, 11, 31, 41, 7]
-        let winningNumebers = [1, 8, 11, 31, 41, 45]
-        let bonusNumber = 7
+        lottoMachine.winningNumbers = [1, 8, 11, 31, 41, 45]
+        lottoMachine.bonusNumber = 7
         let expectedRanking = 2
         
-        let prizeRanking = lottoMachine.prizeRanking(of: myLotto, winningNumbers: winningNumebers, bonus: bonusNumber)
+        let prizeRanking = lottoMachine.ranking(of: myLotto)
         
         XCTAssertEqual(expectedRanking, prizeRanking)
     }
