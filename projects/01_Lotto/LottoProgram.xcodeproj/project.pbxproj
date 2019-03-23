@@ -12,6 +12,7 @@
 		B6D492B62245E5A7006AB146 /* LottoMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D492B52245E5A7006AB146 /* LottoMachine.swift */; };
 		B6D492C42245E851006AB146 /* LottoMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D492B52245E5A7006AB146 /* LottoMachine.swift */; };
 		B6D492C52245E854006AB146 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D492882245E25A006AB146 /* main.swift */; };
+		B6D492C72245EACB006AB146 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B6D492C62245EACB006AB146 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		B6D492952245E26C006AB146 /* LottoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoTest.swift; sourceTree = "<group>"; };
 		B6D492972245E26C006AB146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6D492B52245E5A7006AB146 /* LottoMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoMachine.swift; sourceTree = "<group>"; };
+		B6D492C62245EACB006AB146 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				B6D492872245E25A006AB146 /* LottoProgram */,
 				B6D492942245E26C006AB146 /* LottoTest */,
 				B6D492862245E25A006AB146 /* Products */,
+				B6D492C62245EACB006AB146 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -167,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D492C72245EACB006AB146 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
