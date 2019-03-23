@@ -58,10 +58,10 @@
 		B6D4927C2245E25A006AB146 = {
 			isa = PBXGroup;
 			children = (
+				B6D492C62245EACB006AB146 /* README.md */,
 				B6D492872245E25A006AB146 /* LottoProgram */,
 				B6D492942245E26C006AB146 /* LottoTest */,
 				B6D492862245E25A006AB146 /* Products */,
-				B6D492C62245EACB006AB146 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};

@@ -27,7 +27,7 @@ class LottoMachine {
         return (0..<count).map() { _ in lotto }
     }
     
-    func prizeRanking(of lotto: Lotto, winningNumbers: Lotto, bonus: Int) -> Int {
+    func prizeRanking(of lotto: Lotto, winningNumbers: Lotto, bonus: Int) -> Int? {
         let lottoNums = Set(lotto)
         let winningNums = Set(winningNumbers)
         let sameNumberCount = lottoNums.intersection(winningNums).count
@@ -38,7 +38,7 @@ class LottoMachine {
             5 : lottoNums.contains(bonus) ? 2 : 3,
             6 : 1
         ]
-        return rankingsBySameNumberCount[sameNumberCount] ?? -1
+        return rankingsBySameNumberCount[sameNumberCount]
     }
     
 }
